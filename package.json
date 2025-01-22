@@ -1,6 +1,6 @@
 {
   "name": "foxomoji",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "author": "FoxoCorp",
   "description": "A library for replacing text emojis with image emojis",
   "license": "MIT",

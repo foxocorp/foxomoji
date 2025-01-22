@@ -14,7 +14,10 @@ function copyFolderSync(from, to) {
     });
 }
 
-const srcDir = path.join(__dirname, 'emoji');
-const destDir = path.join(__dirname, 'dist', 'emoji');
+const srcDir64 = path.join(__dirname, 'emoji-64');
+const destDir64 = path.join(__dirname, 'dist', 'emoji-64');
+copyFolderSync(srcDir64, destDir64);
 
-copyFolderSync(srcDir, destDir);
+const srcDir160 = path.join(__dirname, 'emoji-160');
+const destDir160 = path.join(__dirname, 'dist', 'emoji-160');
+copyFolderSync(srcDir160, destDir160);
