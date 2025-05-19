@@ -1,2 +1,1 @@
-# foxomoji
-Emoji pack for foxogram 
+<img src=".github/assets/title.png" alt="Foxomoji Foxogram Floof.">
